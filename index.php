@@ -49,13 +49,19 @@ coded. A small database of knowledge!</p>
 <li><a class="wip" href="mccserver.html">Minecraft Classic c0.30 server</a></li>
 </ol>
 
+<h3>Openness</h3>
+
+<p>
+This site is open-source which means that you can view and copy raw source of
+all the documents here. You may also contribute to the site by proposing changes
+with <b>pull requests</b>. You have full right to copy the material and quote parts of it under the terms of the license.</p>
+<p>
+The repository is hosted <a href="https://github.com/dawidg81/81net-software-docs">here</a>.
+</p>
+
 <hr>
 
-<a href="https://github.com/dawidg81/81net-software-docs">Contributing</a>
-
-<hr>
-
-<p><i>All material under this website is licensed under CC BY-SA 4.0 by dawidg81 and others who contribute to this site.</i></p>
+<p><i>All material under this website is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> by dawidg81 and others who contribute to this site.</i></p>
 <p><i>Dates should be noted YYYY.MM.DD unless noted otherwise.</i></p>
 
 </body>
