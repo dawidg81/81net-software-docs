@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>N-body simulation</title>
+	</head>
+
+	<body>
+		<h1>N-body simulation</h1>
+		<h4><i>dawidg81 in 2026.08.31</i></h4>
+
+		<p>Let's take a look at what is n-body simulation.</p>
+		<p>Three-body problem: We have three point masses orbiting
+		each other in space. Every tick, frame, or as fast as
+		our computer can, we calculate their trajectories using
+		Newton's laws of motion and law of universal gravitation. Each body
+		has these parameters:</p>
+		<pre>
+		X position
+		Y position
+		X velocity
+		Y velocity
+		Mass
+		</pre>
+		<p>Each parameter can be saved as <code>double</code> data type in the
+		program. We create three bodies with different parameters:</p>
+		<pre>
+		{ 0.0, 0.0, 0.0,  0.0,    1000.0 },
+		{ 1.0, 0.0, 0.0,  1.0,    1.0 },
+		{-1.0, 0.0, 0.0, -1.0,    1.0}
+		</pre>
+	</body>
+</html>
