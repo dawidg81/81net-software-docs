@@ -29,16 +29,15 @@ making software rather than actually coding
 it...</h4>
 
 <p>This web page is for various articles,
-documentations, generally more web pages
-about software. In each page we have
-a program described, and how it can be
-coded. A small database of knowledge!</p>
+documentation, and other resources about software.
+On each page, we describe a specific program and how it can be
+built. A small database of knowledge!</p>
 
 <!--<a href="classicube.html">What is ClassiCube? (This web page is archivized)</a>-->
 
 <p>Each link to a web page is colored:</p>
 <ul style="list-style-type:none;">
-<li><span class="completed">green</span>, if it's completed (always can be updated),</li>
+<li><span class="completed">green</span>, if it's completed (though it can always be updated),</li>
 <li><span class="paused">red</span>, if working on it has been paused,</li>
 <li><span class="wip">gray</span>, if it's work in progress.</li>
 </ul>
@@ -52,17 +51,17 @@ coded. A small database of knowledge!</p>
 <h3>Openness</h3>
 
 <p>
-This site is open-source which means that you can view and copy raw source of
+This site is open-source, which means that you can view and copy the raw source of
 all the documents here. You may also contribute to the site by proposing changes
-with <b>pull requests</b>. You have full right to copy the material and quote parts of it under the terms of the license.</p>
+with <b>pull requests</b>. You have full rights to copy the material and quote parts of it under the terms of the license.</p>
 <p>
 The repository is hosted <a href="https://github.com/dawidg81/81net-software-docs">here</a>.
 </p>
 
 <hr>
 
-<p><i>All material under this website is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> by dawidg81 and others who contribute to this site.</i></p>
-<p><i>Dates should be noted YYYY.MM.DD unless noted otherwise.</i></p>
+<p><i>All material on this website is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> by dawidg81 and others who contribute to this site.</i></p>
+<p><i>Dates are written in the YYYY.MM.DD format unless noted otherwise.</i></p>
 
 </body>
 

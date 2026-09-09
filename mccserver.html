@@ -2,10 +2,56 @@
 	<head>
 		<title>Minecraft c0.30 server</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px;
+    /*border-radius: 8px;*/
+    margin-top: auto;
+    margin-bottom: auto;
+
+    background-color: rgba(0, 0, 0, 0.92); 
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+
+h1,h2,h3,h4,h5,h6,p {
+color: #e0e0e0;
+	font-family: "Georgia";
+}
+
+h1,h2,h3,h4,h5,h6 { text-shadow: 0 0 15px rgba(79, 195, 247, 0.3); }
+
+a {
+    color: #4fc3f7;
+}
+
+a:visited {
+    color: #b39ddb;
+}
+
+a:hover {
+    color: #80deea; /* or any highlight color */
+}
+
+a:active {
+    color: #ffe082;
+}
+
+p{
+	font-size: 19px;
+}
+</style>
 	</head>
 	<body>
 		<h1>Minecraft Classic 0.30 server</h1>
-		<i>dawidg81 in 2026.09.03</i>
+		<p><i>dawidg81 in 2026.09.03</i></p>
 
 		<p>We will make a Minecraft Classic c0.30 server software.</p>
 
@@ -14,7 +60,7 @@
 		player position and chat. It runs
 		most of the game logic while the client
 		(c0.30, ClassiCube) handles displaying
-		everything graphically, handling player
+		everything graphically, calculating player
 		movement, etc.</p>
 
 		<p>We can see that the server relatively
@@ -26,5 +72,33 @@
 		gamemode implemented into many server
 		softwares of such type is of course creative
 		or survival.</p>
+
+		<h3>Networking</h3>
+
+		<p>Since our program will act as a server, we
+		need to make the running program to be accessible
+		for the game client. It means that clients
+		can connect to the server by knowing the <b>address</b>
+		and the <b>port number</b> of the running server.</p>
+
+		<p>The port number is a special socket number the server needs to listen to
+		to let clients connect to it. The port can also help with recognization of
+		a service the server is providing. If you was ever making a Minecraft server,
+		in cloud (e.g. Aternos) or locally, you may know that the default port for
+		Minecraft servers is <b>25565</b>.</p>
+
+		<p>The first thing that our server should do is to create a special socket file
+		descriptor (Linux) then attach it to our port <b>25565</b> and finally
+		listen to it. After all of that, our server is ready and only waiting to accept incoming
+		connection from the client and send and receive data from and to it.</p>
+
+		<h3>Greeting a new client</h3>
+
+		<p>After the server sees an incoming connection from the client and creates a
+		client socket variable on its side, it is ready to send and receive data from the client.
+		After the Minecraft client connects to the server it waits until the server will send specific
+		data. The first thing our server needs to do after connecting with client is sending
+		information on protocol version, server name, server Message Of The Day and information
+		whether the player is an admin or not.</p>
 	</body>
 </html>
